@@ -55,7 +55,7 @@ const Hero = () => {
           {/* Left Content */}
           <div className="flex-1 text-center md:text-left animate-fade-in">
             <div className="inline-block mb-4">
-              <span className="px-4 py-2 bg-gradient-to-r from-purple-100 to-pink-100 rounded-full text-purple-600 font-semibold border border-purple-300 backdrop-blur-sm">
+              <span className="text-3xl font-bold text-white">
                 👋 Welcome to my portfolio
               </span>
             </div>
@@ -65,7 +65,7 @@ const Hero = () => {
   Hi, I'm{' '}
 </span>
 
-              <span className="bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-glow">
+              <span className="text-purple-600 font-bold">
                 Starlie
               </span>
             </h1>
@@ -75,7 +75,7 @@ const Hero = () => {
               <span className="animate-pulse">|</span>
             </div>
 
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl">
+            <p className="text-300 font-bold text-white">
               Creating stunning digital experiences with modern technologies. 
               Passionate about building beautiful, functional, and user-friendly applications.
             </p>
@@ -124,7 +124,7 @@ const Hero = () => {
                 <div className="w-full h-full rounded-full bg-white overflow-hidden flex items-center justify-center">
                   {/* Ganti src dengan URL foto profil Anda */}
                   <img 
-                    src="https://via.placeholder.com/400" 
+                    src="/images/starlie.jpg" 
                     alt="Starlie Profile" 
                     className="w-full h-full object-cover"
                   />

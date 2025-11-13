@@ -25,14 +25,14 @@ const Header = () => {
    <header 
   className={`fixed top-0 w-full z-[9999] transition-all duration-300 ${
     scrolled 
-      ? 'bg-deep-purple/95 backdrop-blur-lg shadow-lg shadow-bright-purple/20' 
+      ? 'bg-deep-purple/95 backdrop-blur-lg shadow-lg shadow-bright-black/20' 
       : 'bg-transparent'
   }`}
 >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text text-transparent animate-glow">
+          <div className="text-2xl font-bold text-purple-400">
             MyPortfolio
           </div>
 

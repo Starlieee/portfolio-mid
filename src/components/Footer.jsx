@@ -43,8 +43,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <div className="text-3xl font-bold bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text text-transparent mb-4 animate-glow">
-              MyPortfolio
+            <div className="text-600 font-bold text-black">
+              My Portfolio
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Creating stunning digital experiences with passion and precision. 

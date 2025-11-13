@@ -1,13 +1,6 @@
 const About = () => {
-  const stats = [
-    { number: '5+', label: 'Years Experience' },
-    { number: '100+', label: 'Projects Completed' },
-    { number: '50+', label: 'Happy Clients' },
-    { number: '20+', label: 'Awards Won' },
-  ];
-
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-purple-900 via-deep-purple to-royal-purple relative overflow-hidden">
+    <section id="about" className="py-20 bg-gradient-to-b from-purple-900 via-purple-800 to-purple-900 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -18,105 +11,91 @@ const About = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-in">
+        <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text text-transparent">
-              About Me
-            </span>
+            <span className="text-white">About Me</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          {/* Left - Image/Illustration */}
-          <div className="relative animate-slide-up">
-            <div className="relative group">
-              {/* Glowing Background */}
+        {/* Main Container - 3 Tables: 1 Left, 2 Right Stacked */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto items-start">
+          {/* Table 1 - Left Video Only */}
+          <div className="bg-white/5 rounded-3xl p-8 border border-purple-500/30 backdrop-blur-sm">
+            {/* Profile Video */}
+            <div className="relative group w-full">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
-              
-              {/* Image Container */}
-              <div className="relative bg-gradient-to-br from-royal-purple to-deep-purple rounded-3xl p-8 border border-bright-purple/30 transform group-hover:scale-105 transition-all duration-500">
-                <div className="text-center text-8xl mb-4">🎨</div>
-                <div className="grid grid-cols-3 gap-4">
-                  {['💻', '🎯', '⚡', '🚀', '✨', '🔥'].map((emoji, index) => (
-                    <div
-                      key={index}
-                      className="aspect-square bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-2xl flex items-center justify-center text-4xl hover:scale-110 transition-transform duration-300 cursor-pointer"
-                      style={{ animationDelay: `${index * 0.1}s` }}
-                    >
-                      {emoji}
-                    </div>
-                  ))}
-                </div>
+              <div className="relative bg-gradient-to-br from-purple-700 to-purple-900 rounded-3xl p-4 border border-purple-500/30 transform group-hover:scale-105 transition-all duration-500 overflow-hidden">
+                <video 
+                  src="/images/profil.mp4" 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                  className="w-full h-[737px] object-cover rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
 
-          {/* Right - Content */}
-          <div className="space-y-6 animate-fade-in">
-            <h3 className="text-3xl font-bold text-white">
-              Passionate Developer & Creative Designer
-            </h3>
-            
-            <p className="text-gray-300 leading-relaxed text-lg">
-              Hello! I'm a passionate full-stack developer with a love for creating 
-              beautiful and functional web applications. With over 5 years of experience, 
-              I specialize in modern web technologies and always strive to deliver 
-              exceptional user experiences.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed text-lg">
-              My journey in web development started with a curiosity about how things work 
-              on the internet. Today, I've had the privilege of working on diverse projects, 
-              from small business websites to large-scale enterprise applications.
-            </p>
-
-            <div className="grid grid-cols-2 gap-4 pt-4">
-              {[
-                { icon: '🎓', label: 'Education', value: 'Computer Science' },
-                { icon: '📍', label: 'Location', value: 'Manado, Indonesia' },
-                { icon: '💼', label: 'Status', value: 'Available for Hire' },
-                { icon: '✉️', label: 'Email', value: 'hello@example.com' },
-              ].map((item, index) => (
-                <div
-                  key={index}
-                  className="p-4 bg-white/5 rounded-xl border border-bright-purple/20 hover:border-bright-purple/50 hover:bg-white/10 transition-all duration-300 cursor-pointer"
-                >
-                  <div className="text-2xl mb-2">{item.icon}</div>
-                  <div className="text-sm text-gray-400">{item.label}</div>
-                  <div className="text-white font-semibold">{item.value}</div>
-                </div>
-              ))}
-            </div>
-
-            <a
-              href="#contact"
-              className="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-semibold hover:shadow-2xl hover:shadow-bright-purple/50 transform hover:scale-105 transition-all duration-300"
-            >
-              Let's Work Together
-            </a>
-          </div>
-        </div>
-
-        {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {stats.map((stat, index) => (
-            <div
-              key={index}
-              className="relative group"
-            >
-              {/* Glowing Background */}
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+          {/* Right Side - 2 Tables Stacked */}
+          <div className="space-y-8">
+            {/* Table 2 - Accounts */}
+            <div className="bg-white/5 rounded-3xl p-8 border border-purple-500/30 backdrop-blur-sm">
+              <div className="flex justify-between items-center mb-6">
+                <h3 className="text-2xl font-bold text-white">My other accounts</h3>
+                <span className="text-purple-400 text-sm">🔗 5 link</span>
+              </div>
               
-              {/* Content */}
-              <div className="relative bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-2xl p-8 border border-bright-purple/30 group-hover:border-bright-purple group-hover:scale-105 transition-all duration-300 text-center">
-                <div className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text text-transparent">
-                  {stat.number}
+              <div className="space-y-4">
+                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
+                  <span className="text-gray-300">📧 s22310471@student.unklab.ac.id</span>
+                  <button className="px-6 py-2 bg-gradient-to-r from-orange-500 to-pink-600 rounded-full text-white text-sm font-semibold hover:scale-105 transition-transform">
+                    Connected
+                  </button>
                 </div>
-                <div className="text-gray-400 font-medium">{stat.label}</div>
+                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
+                  <span className="text-gray-300">📷 @starliedoranggie</span>
+                  <button className="px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full text-white text-sm font-semibold hover:scale-105 transition-transform">
+                    Connected
+                  </button>
+                </div>
+                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
+                  <span className="text-gray-300">💬 +6285348600507</span>
+                  <button className="px-6 py-2 bg-gradient-to-r from-green-500 to-green-600 rounded-full text-white text-sm font-semibold hover:scale-105 transition-transform">
+                    Connected
+                  </button>
+                </div>
+                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
+                  <span className="text-gray-300">🎵 @Starlie</span>
+                  <button className="px-6 py-2 bg-gradient-to-r from-gray-800 to-gray-900 rounded-full text-white text-sm font-semibold hover:scale-105 transition-transform">
+                    Connected
+                  </button>
+                </div>
+                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
+                  <span className="text-gray-300">🔗 linktr.ee/starlie</span>
+                  <button className="px-6 py-2 bg-gradient-to-r from-green-500 to-green-600 rounded-full text-white text-sm font-semibold hover:scale-105 transition-transform">
+                    Connected
+                  </button>
+                </div>
               </div>
             </div>
-          ))}
+
+            {/* Table 3 - About Me */}
+            <div className="bg-white/5 rounded-3xl p-8 border border-purple-500/30 backdrop-blur-sm">
+              <div className="flex justify-between items-center mb-6">
+                <h3 className="text-2xl font-bold text-white">Tentang Saya</h3>
+              </div>
+              
+              <div className="space-y-4">
+                <p className="text-gray-300 leading-relaxed">
+                 Halo! Saya Doranggie Starlie, mahasiswa Informatika semester 5 yang memiliki minat besar di bidang pengembangan web dan kecerdasan buatan.
+Saya senang mempelajari hal baru, membangun solusi berbasis teknologi, dan terus mengasah kemampuan saya dalam dunia pemrograman modern.
+Fokus saya saat ini adalah mengembangkan website interaktif dan chatbot berbasis expert system yang dapat membantu banyak orang di bidang kesehatan dan edukasi.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -3,55 +3,26 @@ const Experience = () => {
     {
       role: 'Senior Full Stack Developer',
       company: 'Tech Innovations Inc.',
-      period: '2022 - Present',
+      period: '2023 - Present',
       location: 'Remote',
       description: 'Leading development of enterprise web applications using React and Node.js. Mentoring junior developers and implementing best practices.',
       icon: '💼',
       color: 'from-purple-600 to-pink-600',
       achievements: [
         'Increased app performance by 40%',
-        'Led team of 5 developers',
         'Implemented CI/CD pipeline',
-      ]
-    },
-    {
-      role: 'Full Stack Developer',
-      company: 'Digital Solutions Co.',
-      period: '2020 - 2022',
-      location: 'Jakarta, Indonesia',
-      description: 'Developed and maintained multiple client projects including e-commerce platforms and business management systems.',
-      icon: '🚀',
-      color: 'from-blue-600 to-purple-600',
-      achievements: [
-        'Built 15+ client websites',
-        'Reduced loading time by 50%',
-        'Integrated payment gateways',
-      ]
-    },
-    {
-      role: 'Frontend Developer',
-      company: 'Creative Agency',
-      period: '2019 - 2020',
-      location: 'Manado, Indonesia',
-      description: 'Created responsive and interactive user interfaces for various web applications using modern JavaScript frameworks.',
-      icon: '🎨',
-      color: 'from-pink-600 to-orange-600',
-      achievements: [
-        'Delivered 20+ responsive designs',
-        'Improved UX scores by 35%',
-        'Mastered React & Vue.js',
       ]
     },
     {
       role: 'Junior Web Developer',
       company: 'StartUp Hub',
-      period: '2018 - 2019',
+      period: '2024-present',
       location: 'Manado, Indonesia',
       description: 'Started my professional journey building websites and learning industry best practices.',
       icon: '🌱',
       color: 'from-green-600 to-blue-600',
       achievements: [
-        'Completed 10+ projects',
+        'Completed 3+ projects',
         'Learned full-stack development',
         'Contributed to open-source',
       ]

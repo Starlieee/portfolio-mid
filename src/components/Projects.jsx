@@ -27,17 +27,6 @@ const Projects = () => {
       github: '#',
     },
     {
-      id: 3,
-      title: 'Fitness Tracker',
-      description: 'Mobile-responsive fitness tracking app with workout plans, calorie counter, and progress charts.',
-      image: '💪',
-      category: 'Mobile',
-      technologies: ['React Native', 'Firebase', 'Chart.js'],
-      color: 'from-green-600 to-blue-600',
-      link: '#',
-      github: '#',
-    },
-    {
       id: 4,
       title: 'Portfolio CMS',
       description: 'Content management system for portfolios with drag-and-drop builder and theme customization.',
@@ -45,28 +34,6 @@ const Projects = () => {
       category: 'Web App',
       technologies: ['Next.js', 'Tailwind', 'PostgreSQL'],
       color: 'from-orange-600 to-pink-600',
-      link: '#',
-      github: '#',
-    },
-    {
-      id: 5,
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather dashboard with forecasts, maps, and location-based recommendations.',
-      image: '🌤️',
-      category: 'Web App',
-      technologies: ['React', 'Weather API', 'Mapbox'],
-      color: 'from-blue-600 to-cyan-600',
-      link: '#',
-      github: '#',
-    },
-    {
-      id: 6,
-      title: 'Blockchain Wallet',
-      description: 'Secure cryptocurrency wallet with multi-chain support and transaction history.',
-      image: '🔐',
-      category: 'Web3',
-      technologies: ['React', 'Web3.js', 'Ethereum'],
-      color: 'from-purple-600 to-pink-600',
       link: '#',
       github: '#',
     },
@@ -95,7 +62,7 @@ const Projects = () => {
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text text-transparent">
+            <span className="text-white-600 font-bold">
               Featured Projects
             </span>
           </h2>

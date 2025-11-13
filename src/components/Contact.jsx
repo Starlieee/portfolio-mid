@@ -32,31 +32,26 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: '📧',
-      title: 'Email',
-      value: 'hello@example.com',
-      link: 'mailto:hello@example.com',
+      title: 's22310471@student.unklab.ac.id',
+      value: 's22310471@student.unklab.ac.id',
       color: 'from-purple-600 to-blue-600'
     },
     {
       icon: '📱',
-      title: 'Phone',
-      value: '+62 xxx xxxx xxxx',
-      link: 'tel:+62xxxxxxxxxx',
+      title: '+6285348600507',
+      value: '+6285348600507',
       color: 'from-pink-600 to-purple-600'
     },
     {
       icon: '📍',
       title: 'Location',
       value: 'Manado, Indonesia',
-      link: '#',
       color: 'from-green-600 to-blue-600'
     }
   ];
 
   const socialLinks = [
     { name: 'GitHub', icon: '💻', url: '#', color: 'from-gray-600 to-gray-800' },
-    { name: 'LinkedIn', icon: '💼', url: '#', color: 'from-blue-600 to-blue-800' },
-    { name: 'Twitter', icon: '🐦', url: '#', color: 'from-sky-500 to-blue-600' },
     { name: 'Instagram', icon: '📸', url: '#', color: 'from-pink-600 to-purple-600' },
   ];
 
@@ -74,7 +69,7 @@ const Contact = () => {
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text text-transparent">
+            <span className="text-300 font-bold text-white">
               Get In Touch
             </span>
           </h2>
@@ -144,7 +139,7 @@ const Contact = () => {
             <div className="relative mt-8">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl blur-2xl opacity-20"></div>
               <div className="relative bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-3xl p-8 border border-bright-purple/30">
-                <p className="text-gray-300 text-center italic">
+                <p className="text-black-300 text-center italic">
                   "The only way to do great work is to love what you do." ✨
                 </p>
               </div>
@@ -154,8 +149,7 @@ const Contact = () => {
           {/* Right Side - Contact Form */}
           <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <div className="relative group">
-              {/* Glowing Background */}
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+             
 
               <div className="relative bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-3xl p-8 border border-bright-purple/30">
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -168,7 +162,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300"
+                      className="w-full px-4 py-3 bg-black/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300"
                       placeholder="John Doe"
                     />
                   </div>
@@ -182,7 +176,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300"
+                      className="w-full px-4 py-3 bg-black/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -196,7 +190,7 @@ const Contact = () => {
                       value={formData.subject}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300"
+                      className="w-full px-4 py-3 bg-black/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300"
                       placeholder="Project Inquiry"
                     />
                   </div>
@@ -210,7 +204,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       rows="5"
-                      className="w-full px-4 py-3 bg-white/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300 resize-none"
+                      className="w-full px-4 py-3 bg-black/10 border border-bright-purple/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-bright-purple focus:bg-white/20 transition-all duration-300 resize-none"
                       placeholder="Tell me about your project..."
                     ></textarea>
                   </div>

@@ -4,9 +4,9 @@
     "title": "Full Stack Developer",
     "bio": "Passionate developer creating stunning digital experiences with modern technologies.",
     "location": "Manado, Indonesia",
-    "email": "hello@example.com",
-    "phone": "+62 xxx xxxx xxxx",
-    "avatar": "👨‍💻",
+    "email": "s22310471@student.unklab.ac.id",
+    "phone": "+6285348600507",
+    "avatar": "/images/starlie.jpg",
     "resume": "/path/to/resume.pdf"
   },
   "socialLinks": [
@@ -14,8 +14,8 @@
       "id": 1,
       "platform": "GitHub",
       "icon": "💻",
-      "url": "https://github.com/yourusername",
-      "username": "@yourusername"
+      "url": "https://github.com/Starlieee",
+      "username": "Starlieee"
     },
     {
       "id": 2,

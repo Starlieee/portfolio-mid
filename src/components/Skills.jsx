@@ -56,7 +56,7 @@ const Skills = () => {
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-bright-purple to-pink-500 bg-clip-text">
               My Skills
             </span>
           </h2>
@@ -131,7 +131,7 @@ const Skills = () => {
         {/* Additional Info */}
         <div className="mt-16 text-center">
           <div className="inline-block bg-gradient-to-r from-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-8 border border-bright-purple/30">
-            <p className="text-gray-300 text-lg mb-4">
+            <p className="text-black-300 text-lg mb-4">
               Always learning and expanding my skill set! 🚀
             </p>
             <div className="flex flex-wrap justify-center gap-3">
