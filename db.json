@@ -1,0 +1,279 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "title": "Full Stack Developer",
+    "bio": "Passionate developer creating stunning digital experiences with modern technologies.",
+    "location": "Manado, Indonesia",
+    "email": "hello@example.com",
+    "phone": "+62 xxx xxxx xxxx",
+    "avatar": "👨‍💻",
+    "resume": "/path/to/resume.pdf"
+  },
+  "socialLinks": [
+    {
+      "id": 1,
+      "platform": "GitHub",
+      "icon": "💻",
+      "url": "https://github.com/yourusername",
+      "username": "@yourusername"
+    },
+    {
+      "id": 2,
+      "platform": "LinkedIn",
+      "icon": "💼",
+      "url": "https://linkedin.com/in/yourusername",
+      "username": "@yourusername"
+    },
+    {
+      "id": 3,
+      "platform": "Twitter",
+      "icon": "🐦",
+      "url": "https://twitter.com/yourusername",
+      "username": "@yourusername"
+    },
+    {
+      "id": 4,
+      "platform": "Instagram",
+      "icon": "📸",
+      "url": "https://instagram.com/yourusername",
+      "username": "@yourusername"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "category": "Frontend",
+      "items": [
+        { "name": "React", "level": 95, "icon": "⚛️" },
+        { "name": "JavaScript", "level": 90, "icon": "🟨" },
+        { "name": "TypeScript", "level": 85, "icon": "🔷" },
+        { "name": "Tailwind CSS", "level": 92, "icon": "🎨" },
+        { "name": "HTML/CSS", "level": 98, "icon": "📝" },
+        { "name": "Next.js", "level": 88, "icon": "▲" }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Backend",
+      "items": [
+        { "name": "Node.js", "level": 88, "icon": "🟢" },
+        { "name": "Express", "level": 85, "icon": "🚂" },
+        { "name": "MongoDB", "level": 80, "icon": "🍃" },
+        { "name": "PostgreSQL", "level": 82, "icon": "🐘" },
+        { "name": "REST API", "level": 90, "icon": "🔌" },
+        { "name": "GraphQL", "level": 75, "icon": "◆" }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Tools",
+      "items": [
+        { "name": "Git", "level": 92, "icon": "📦" },
+        { "name": "VS Code", "level": 95, "icon": "💻" },
+        { "name": "Docker", "level": 78, "icon": "🐳" },
+        { "name": "Figma", "level": 85, "icon": "🎨" },
+        { "name": "AWS", "level": 70, "icon": "☁️" },
+        { "name": "Firebase", "level": 88, "icon": "🔥" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-featured online shopping platform with payment integration, user authentication, and admin dashboard.",
+      "image": "🛒",
+      "category": "Web App",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+      "color": "from-purple-600 to-blue-600",
+      "demoUrl": "https://demo.example.com",
+      "githubUrl": "https://github.com/yourusername/ecommerce",
+      "featured": true,
+      "completedDate": "2024-03-15"
+    },
+    {
+      "id": 2,
+      "title": "AI Chat Application",
+      "description": "Real-time chat application powered by AI with message translation and sentiment analysis.",
+      "image": "💬",
+      "category": "AI/ML",
+      "technologies": ["React", "OpenAI", "Socket.io", "Express"],
+      "color": "from-pink-600 to-purple-600",
+      "demoUrl": "https://demo.example.com",
+      "githubUrl": "https://github.com/yourusername/ai-chat",
+      "featured": true,
+      "completedDate": "2024-02-20"
+    },
+    {
+      "id": 3,
+      "title": "Fitness Tracker",
+      "description": "Mobile-responsive fitness tracking app with workout plans, calorie counter, and progress charts.",
+      "image": "💪",
+      "category": "Mobile",
+      "technologies": ["React Native", "Firebase", "Chart.js"],
+      "color": "from-green-600 to-blue-600",
+      "demoUrl": "https://demo.example.com",
+      "githubUrl": "https://github.com/yourusername/fitness",
+      "featured": false,
+      "completedDate": "2024-01-10"
+    },
+    {
+      "id": 4,
+      "title": "Portfolio CMS",
+      "description": "Content management system for portfolios with drag-and-drop builder and theme customization.",
+      "image": "📱",
+      "category": "Web App",
+      "technologies": ["Next.js", "Tailwind", "PostgreSQL"],
+      "color": "from-orange-600 to-pink-600",
+      "demoUrl": "https://demo.example.com",
+      "githubUrl": "https://github.com/yourusername/portfolio-cms",
+      "featured": false,
+      "completedDate": "2023-12-05"
+    },
+    {
+      "id": 5,
+      "title": "Weather Dashboard",
+      "description": "Beautiful weather dashboard with forecasts, maps, and location-based recommendations.",
+      "image": "🌤️",
+      "category": "Web App",
+      "technologies": ["React", "Weather API", "Mapbox"],
+      "color": "from-blue-600 to-cyan-600",
+      "demoUrl": "https://demo.example.com",
+      "githubUrl": "https://github.com/yourusername/weather",
+      "featured": true,
+      "completedDate": "2023-11-18"
+    },
+    {
+      "id": 6,
+      "title": "Blockchain Wallet",
+      "description": "Secure cryptocurrency wallet with multi-chain support and transaction history.",
+      "image": "🔐",
+      "category": "Web3",
+      "technologies": ["React", "Web3.js", "Ethereum"],
+      "color": "from-purple-600 to-pink-600",
+      "demoUrl": "https://demo.example.com",
+      "githubUrl": "https://github.com/yourusername/crypto-wallet",
+      "featured": false,
+      "completedDate": "2023-10-22"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Senior Full Stack Developer",
+      "company": "Tech Innovations Inc.",
+      "period": "2022 - Present",
+      "location": "Remote",
+      "description": "Leading development of enterprise web applications using React and Node.js. Mentoring junior developers and implementing best practices.",
+      "icon": "💼",
+      "color": "from-purple-600 to-pink-600",
+      "achievements": [
+        "Increased app performance by 40%",
+        "Led team of 5 developers",
+        "Implemented CI/CD pipeline"
+      ],
+      "current": true
+    },
+    {
+      "id": 2,
+      "role": "Full Stack Developer",
+      "company": "Digital Solutions Co.",
+      "period": "2020 - 2022",
+      "location": "Jakarta, Indonesia",
+      "description": "Developed and maintained multiple client projects including e-commerce platforms and business management systems.",
+      "icon": "🚀",
+      "color": "from-blue-600 to-purple-600",
+      "achievements": [
+        "Built 15+ client websites",
+        "Reduced loading time by 50%",
+        "Integrated payment gateways"
+      ],
+      "current": false
+    },
+    {
+      "id": 3,
+      "role": "Frontend Developer",
+      "company": "Creative Agency",
+      "period": "2019 - 2020",
+      "location": "Manado, Indonesia",
+      "description": "Created responsive and interactive user interfaces for various web applications using modern JavaScript frameworks.",
+      "icon": "🎨",
+      "color": "from-pink-600 to-orange-600",
+      "achievements": [
+        "Delivered 20+ responsive designs",
+        "Improved UX scores by 35%",
+        "Mastered React & Vue.js"
+      ],
+      "current": false
+    },
+    {
+      "id": 4,
+      "role": "Junior Web Developer",
+      "company": "StartUp Hub",
+      "period": "2018 - 2019",
+      "location": "Manado, Indonesia",
+      "description": "Started my professional journey building websites and learning industry best practices.",
+      "icon": "🌱",
+      "color": "from-green-600 to-blue-600",
+      "achievements": [
+        "Completed 10+ projects",
+        "Learned full-stack development",
+        "Contributed to open-source"
+      ],
+      "current": false
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Computer Science",
+      "institution": "University of Technology",
+      "year": "2014 - 2018",
+      "description": "Focused on Software Engineering and Web Development",
+      "gpa": "3.8/4.0"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "CEO, Tech Company",
+      "message": "Outstanding developer! Delivered the project on time with exceptional quality.",
+      "rating": 5,
+      "avatar": "👨‍💼"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "position": "Product Manager",
+      "message": "Great communication and technical skills. Highly recommended!",
+      "rating": 5,
+      "avatar": "👩‍💼"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Getting Started with React Hooks",
+      "excerpt": "Learn the basics of React Hooks and how to use them effectively...",
+      "content": "Full blog content here...",
+      "author": "Your Name",
+      "date": "2024-03-15",
+      "tags": ["React", "JavaScript", "Tutorial"],
+      "readTime": "5 min read",
+      "featured": true
+    }
+  ],
+  "stats": [
+    { "id": 1, "number": "5+", "label": "Years Experience" },
+    { "id": 2, "number": "100+", "label": "Projects Completed" },
+    { "id": 3, "number": "50+", "label": "Happy Clients" },
+    { "id": 4, "number": "20+", "label": "Awards Won" }
+  ],
+  "contact": {
+    "email": "hello@example.com",
+    "phone": "+62 xxx xxxx xxxx",
+    "location": "Manado, North Sulawesi, Indonesia",
+    "availability": "Available for freelance work"
+  }
+}

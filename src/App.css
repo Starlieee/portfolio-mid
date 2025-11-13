@@ -1,0 +1,13 @@
+/* Reset untuk root */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hanya sisakan yang penting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
